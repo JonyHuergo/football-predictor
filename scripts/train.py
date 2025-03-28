@@ -78,7 +78,6 @@ def train_model():
     
     # Initialize model
     model = LogisticRegression(
-        multi_class='multinomial',
         solver='lbfgs',
         max_iter=1000,
         class_weight='balanced',
